@@ -16,7 +16,7 @@
 <p align="center"><strong><u>Member 1</u></strong><u>:</u></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Md. Ahsanuzzaman </p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1813158</p>
-<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:md.ahsanuzzaman@northsouth.edu">abc.def@northsouth.edu</a></p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:abc.def@northsouth.edu">md.ahsanuzzaman@northsouth.edu</a></p>
 
 <p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01">https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01</a></p>
 
