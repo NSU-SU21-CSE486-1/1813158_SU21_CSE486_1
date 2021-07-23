@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5DCE6">
+    android:background="#2B2B2B">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -13,8 +13,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/uniclubzlogo"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
 
     <LinearLayout
         android:layout_width="360dp"
@@ -22,8 +22,8 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="372dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="372dp">
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -44,8 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="440dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="440dp">
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -67,8 +67,8 @@
         android:layout_marginStart="45dp"
         android:text="Login as general user"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="523dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="523dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -77,8 +77,8 @@
         android:layout_marginEnd="45dp"
         android:text="Login as club management"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="523dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="523dp" />
 
     <Button
         android:id="@+id/button3"
@@ -90,8 +90,8 @@
         android:text="LOGIN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="616dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="616dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
