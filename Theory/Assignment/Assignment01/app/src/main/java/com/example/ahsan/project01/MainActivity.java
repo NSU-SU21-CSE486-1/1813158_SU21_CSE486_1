@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         mainNext = findViewById(R.id.mainActButton);
 
         mainNext.setOnClickListener (new View.OnClickListener( ){
-            public void onClick(View newView){
-                Intent mainActData = new Intent (MainActivity.this, UniversityAffiliation.class);
+            public void onClick(View view){
+                Intent mainActData = new Intent (MainActivity.this, UniversityAffiliation01.class);
                 mainActData.putExtra ("nameData", name.getText().toString());
                 mainActData.putExtra ("DOBData", dateOfBirth.getText().toString());
                 mainActData.putExtra ("NIDData", nid.getText().toString());

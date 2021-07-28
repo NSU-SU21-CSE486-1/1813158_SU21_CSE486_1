@@ -4,12 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
-public class UniversityAffiliation extends AppCompatActivity{
+public class UniversityAffiliation01 extends AppCompatActivity {
 
     TextView showName;
     TextView showDOB;
@@ -19,7 +16,8 @@ public class UniversityAffiliation extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.university_affiliation);
+        setContentView(R.layout.activity_university_affiliation01);
+
 
         showName = findViewById(R.id.showName);
         showDOB = findViewById(R.id.showDOB);
@@ -31,7 +29,5 @@ public class UniversityAffiliation extends AppCompatActivity{
         showDOB.setText(getMainActDetail.getStringExtra("DOBData"));
         showNID.setText(getMainActDetail.getStringExtra("NIDData"));
         showBG.setText(getMainActDetail.getStringExtra("BloodGroupData"));
-}
-
-
     }
+}
