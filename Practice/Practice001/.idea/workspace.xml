@@ -8,7 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6410de02-188c-44d3-b330-fd0f23055a4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Lab/Lab01/Hello Toast" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab/Lab01/Hello Toast" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab/Lab03/android-advanced-starter-apps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab/Lab03/android-advanced-starter-apps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version01/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version01/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version01/app/src/main/res/layout/login_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version01/app/src/main/res/layout/login_screen.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
