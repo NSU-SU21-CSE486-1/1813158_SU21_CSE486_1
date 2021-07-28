@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
         EditText name;
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        name = findViewById(R.id.nameField);
+        name = findViewById(R.id.studentIdField);
         dateOfBirth= findViewById(R.id.dateOfBirthFiled);
         nid = findViewById(R.id.nidField);
         bloodGroup = findViewById(R.id.bloodGroupField);
