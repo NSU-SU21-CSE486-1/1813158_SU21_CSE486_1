@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class UniversityAffiliation01 extends AppCompatActivity {
@@ -16,7 +19,9 @@ public class UniversityAffiliation01 extends AppCompatActivity {
     TextView showBG;
     AutoCompleteTextView universityNameDD;
     AutoCompleteTextView departmentNameDD;
+    EditText StudentID;
     AutoCompleteTextView studyLevelDD;
+    Button uniAffNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +35,9 @@ public class UniversityAffiliation01 extends AppCompatActivity {
         showBG = findViewById(R.id.showBloodGroup);
         universityNameDD = findViewById(R.id.autoCompleteUniName);
         departmentNameDD = findViewById(R.id.autoCompleteDeptName);
+        StudentID = findViewById(R.id.emailField);
         studyLevelDD =findViewById(R.id.autoCompleteStudyLevel);
+        uniAffNext = findViewById(R.id.uniAffButton);
 
         Intent getMainActDetail = getIntent();
         showName.setText(getMainActDetail.getStringExtra("nameData"));
@@ -52,5 +59,32 @@ public class UniversityAffiliation01 extends AppCompatActivity {
         ArrayAdapter arrayAdapterStudyLevel = new ArrayAdapter(this, R.layout.dropdown_item, option_study_level);
         studyLevelDD.setText(arrayAdapterStudyLevel.getItem(0).toString(), false); //to make default value
         studyLevelDD.setAdapter(arrayAdapterStudyLevel);
+
+
+        uniAffNext.setOnClickListener (new View.OnClickListener( ){
+            public void onClick(View view){
+                Intent UniAffiData = new Intent (UniversityAffiliation01.this, ContactInfo.class);
+                UniAffiData.putExtra ("nameData", showName.getText().toString());
+                UniAffiData.putExtra ("DOBData", showDOB.getText().toString());
+                UniAffiData.putExtra ("NIDData", showNID.getText().toString());
+                UniAffiData.putExtra ("BloodGroupData", showBG.getText().toString());
+                UniAffiData.putExtra("UniversityName", universityNameDD.getAutofillValue().toString() );
+                UniAffiData.putExtra("Department", departmentNameDD.getAutofillValue().toString());
+                UniAffiData.putExtra("StudentID", StudentID.getText().toString());
+                UniAffiData.putExtra("StudyLevel",studyLevelDD.getAutofillValue().toString());
+
+
+                showName.setText(" ");
+                showDOB.setText(" ");
+                showNID.setText(" ");
+                showBG.setText(" ");
+                universityNameDD.setText(" ");
+                departmentNameDD.setText(" ");
+                StudentID.setText(" ");
+                studyLevelDD.setText(" ");
+                startActivity(UniAffiData);
+            }
+
+        });
     }
 }

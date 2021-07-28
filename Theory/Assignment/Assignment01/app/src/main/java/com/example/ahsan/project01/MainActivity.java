@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        name = findViewById(R.id.studentIdField);
+        name = findViewById(R.id.emailField);
         dateOfBirth= findViewById(R.id.dateOfBirthFiled);
         nid = findViewById(R.id.nidField);
         bloodGroup = findViewById(R.id.bloodGroupField);

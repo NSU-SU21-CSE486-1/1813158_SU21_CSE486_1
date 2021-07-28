@@ -19,13 +19,13 @@
         android:text="Main Activity"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/studentIdField"
+        app:layout_constraintBottom_toTopOf="@+id/emailField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/studentIdField"
+        android:id="@+id/emailField"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
@@ -61,7 +61,7 @@
         app:layout_constraintBottom_toTopOf="@+id/nidField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/studentIdField" />
+        app:layout_constraintTop_toBottomOf="@+id/emailField" />
 
     <EditText
         android:id="@+id/nidField"
