@@ -96,7 +96,8 @@
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/UniClubzFont"
-        tools:layout_editor_absoluteY="-8dp" />
+        tools:layout_editor_absoluteY="-8dp"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:id="@+id/guDash_Slider_LO"
@@ -134,7 +135,8 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="292dp">
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:padding="5dp"
@@ -207,7 +209,8 @@
         android:layout_height="78dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="4dp">
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/imageButton5"
