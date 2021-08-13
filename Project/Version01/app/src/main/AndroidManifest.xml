@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UniClubz">
-        <activity android:name=".ClubListScreen_Athletics"></activity>
+        <activity android:name=".EventScreenForEachClub"></activity>
+        <activity android:name=".ClubListScreen_Athletics" />
         <activity android:name=".ClubListScreen_Cultural" />
         <activity android:name=".ClubListScreen_CSE" />
         <activity android:name=".ClubListScreen_Law" />
