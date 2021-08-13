@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UniClubz">
-        <activity android:name=".BloodDonationScreen"></activity>
+        <activity android:name=".ClubListScreen_Athletics"></activity>
+        <activity android:name=".ClubListScreen_Cultural" />
+        <activity android:name=".ClubListScreen_CSE" />
+        <activity android:name=".ClubListScreen_Law" />
+        <activity android:name=".ClubListScreen_Marketing" />
+        <activity android:name=".BloodDonationScreen" />
         <activity android:name=".JoinInvitationScreen" />
         <activity android:name=".EventsScreen" />
         <activity android:name=".ClubCategoryScreen" />
